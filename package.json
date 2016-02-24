@@ -4,16 +4,21 @@
   "description": "Playing with docker and kubernetes",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node ."
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:SebastianFlo/docker-kubernetes.git"
+    "url": "git+ssh://git@github.com:SebastianFlo/docker-kubernetes.git"
   },
   "author": "Sebastian Florian <sebastian@rebar.dk>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/SebastianFlo/docker-kubernetes/issues"
   },
-  "homepage": "https://github.com/SebastianFlo/docker-kubernetes#readme"
+  "homepage": "https://github.com/SebastianFlo/docker-kubernetes#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4"
+  }
 }

@@ -1,0 +1,19 @@
+{
+  "name": "docker-kub",
+  "version": "1.0.0",
+  "description": "Playing with docker and kubernetes",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:SebastianFlo/docker-kubernetes.git"
+  },
+  "author": "Sebastian Florian <sebastian@rebar.dk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SebastianFlo/docker-kubernetes/issues"
+  },
+  "homepage": "https://github.com/SebastianFlo/docker-kubernetes#readme"
+}
